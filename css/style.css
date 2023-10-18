@@ -678,6 +678,7 @@ video {
   background-color: #f0f0f0;
   padding: 20px;
   text-align: center; /* Alinhe o conteúdo ao centro */
+  position: relative;
 }
 
 
@@ -695,7 +696,12 @@ video {
 /* Estilo para a seção banner */
 .banner {
   text-align: center;
-  padding: 64px;
+  min-width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 26px;
 }
 
 /* Estilo para o elemento com a classe carousel */

@@ -1,0 +1,78 @@
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+
+
+  
+}
+
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 0px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+
+label {
+  display: inline-block;
+  width: 200px; /* Ajuste a largura conforme necessário */
+  font-weight: normal; /* Redefina o peso da fonte se não for necessário */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+input[type="submit"] {
+  width: 150px;
+  height: 45px;
+  background-color: #ad5439;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block; 
+  margin: 0 auto; 
+   
+  
+}
+
+
+
+input[type="submit"]:hover {
+  background-color: #8a3923;
+}
+
+
