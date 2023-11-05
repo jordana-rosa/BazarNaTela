@@ -1,0 +1,41 @@
+[
+  {
+    "titulo": "Camisa Personalizável com Abotoadura Listrada Eva",
+    "descricao": "Camisa Social Feminina, Feita em Algodão, Seminova",
+    "preco": "R$ 19.99",
+    "imagem": "./img-cards/card3.jpg"
+  },
+  {
+    "titulo": "Blazer de Veludo Cotelê Camel Plus Size",
+    "descricao": "Comprimento intermediário, Ombreiras, Gola Blazer Tradicional, Seminovo",
+    "preco": "R$ 19.99",
+    "imagem": "./img-cards/card1.jpg"
+  },
+
+  {
+    "titulo": "Sandália Salto Bloco Off White Manuela",
+    "descricao": "Salto Médio, Tira Ajustável, Seminovo",
+    "preco": "R$ 19.99",
+    "imagem": "./img-cards/card2.jpg"
+  },
+  {
+    "titulo": "Camisa Personalizável com Abotoadura Listrada Eva",
+    "descricao": "Camisa Social Feminina, Feita em Algodão, Seminova",
+    "preco": "R$ 19.99",
+    "imagem": "./img-cards/card3.jpg"
+  },
+  {
+    "titulo": "Blazer de Veludo Cotelê Camel Plus Size",
+    "descricao": "Comprimento intermediário, Ombreiras, Gola Blazer Tradicional, Seminovo",
+    "preco": "R$ 19.99",
+    "imagem": "./img-cards/card1.jpg"
+  },
+
+  {
+    "titulo": "Sandália Salto Bloco Off White Manuela",
+    "descricao": "Salto Médio, Tira Ajustável, Seminovo",
+    "preco": "R$ 19.99",
+    "imagem": "./img-cards/card2.jpg"
+  }
+
+ ]
