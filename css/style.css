@@ -697,7 +697,6 @@ video {
 .banner {
   text-align: center;
   min-width: 100%;
-  position: absolute;
   left: 0;
   right: 0;
   margin: auto;
@@ -807,4 +806,8 @@ video {
 
 .favorite:hover {
   color: #f33;
+}
+.products{
+position: relative;
+margin-top: 20px; 
 }
