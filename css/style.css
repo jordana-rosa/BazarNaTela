@@ -762,13 +762,18 @@ video {
 }
 
 /* Estilos para os cards de produtos */
+
+
 .card {
-  margin: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
+  width: 100%; /* Ocupa 100% da largura do container pai */
+  max-width: 350px; /* Define a largura máxima  */
+  height: 450px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+  transition: transform 0.2s; /* Adiciona uma transição suave ao aplicar a transformação */
 }
+
 
 .card:hover {
   transform: scale(1.03);
