@@ -1,17 +1,10 @@
 [
   {
-    "titulo": "Camisa Personalizável com Abotoadura Listrada Eva",
-    "descricao": "Camisa Social Feminina, Algodão, Seminova",
-    "preco": "R$ 19.99",
-    "imagem": "./img-cards/card3.jpg"
-  },
-  {
     "titulo": "Blazer de Veludo Cotelê Camel Plus Size",
     "descricao": "Comprimento intermediário, Ombreiras, Gola Blazer, Seminovo",
     "preco": "R$ 19.99",
     "imagem": "./img-cards/card1.jpg"
   },
-
   {
     "titulo": "Sandália Salto Bloco Off White Manuela",
     "descricao": "Salto Médio, Tira Ajustável, Seminovo",
@@ -25,17 +18,39 @@
     "imagem": "./img-cards/card3.jpg"
   },
   {
-    "titulo": "Blazer de Veludo Cotelê Camel Plus Size",
-    "descricao": "Comprimento intermediário, Ombreiras, Gola Blazer, Seminovo",
+    "titulo": "Faixa Lille em musseline de seda",
+    "descricao": "Estampa Cleo, Turbante, Seminovo",
     "preco": "R$ 19.99",
-    "imagem": "./img-cards/card1.jpg"
+    "imagem": "./img-cards/lenco1.jpg"
   },
-
   {
-    "titulo": "Sandália Salto Bloco Off White Manuela",
-    "descricao": "Salto Médio, Tira Ajustável, Seminovo",
+    "titulo": "Lenço Pré Amarrado Pétala em Musseline",
+    "descricao": "Toque de Seda, Estampa Tina, Seminovo",
     "preco": "R$ 19.99",
-    "imagem": "./img-cards/card2.jpg"
+    "imagem": "./img-cards/lenco2.jpg"
+  },
+  {
+    "titulo": "Óculos de Sol Ray Ban Aviator Verde",
+    "descricao": "Acrílico, Unissex, Seminovo",
+    "preco": "R$ 199.99",
+    "imagem": "./img-cards/oculos1.jpg"
+  },
+  {
+    "titulo": "Óculos d&g dolce & gabbana roxo detalhes",
+    "descricao": "Grau, Unissex, Usado",
+    "preco": "R$ 179.99",
+    "imagem": "./img-cards/oculos2.jpg"
+  },
+  {
+    "titulo": "Cinto Branco Croco",
+    "descricao": "Couro, Unissex, Usado",
+    "preco": "R$ 89.99",
+    "imagem": "./img-cards/cinto3.jpg"
+  },
+  {
+    "titulo": "Cinto Preto Couro",
+    "descricao": "Couro, Unissex, Usado",
+    "preco": "R$ 29.99",
+    "imagem": "./img-cards/cinto2.jpg"
   }
-
- ]
+]

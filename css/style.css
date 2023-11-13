@@ -768,9 +768,10 @@ video {
   width: 100%; /* Ocupa 100% da largura do container pai */
   max-width: 350px; /* Define a largura máxima  */
   height: 450px; 
+  margin-bottom: 30px;
   border: 1px solid #ccc; 
   border-radius: 5px; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+  box-shadow: 0 2px 4px rgba(44, 39, 39, 0.1); /* Adiciona uma sombra suave */
   transition: transform 0.2s; /* Adiciona uma transição suave ao aplicar a transformação */
 }
 

@@ -76,3 +76,12 @@ input[type="submit"]:hover {
 }
 
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ad472c; /* Fundo terracota mais clarinho */
+  padding: 20px; /* Aumentando o espaçamento interno */
+  color: #FFFFFF; /* Texto branco */
+  text-align: center;
+}
