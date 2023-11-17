@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/perfil-cliente.css">
+    <title>Perfil do Usuário</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>    
+            <h1>Perfil do Usuário</h1>
+        </header>
+
+        <section class="profile-section">
+            <h2>Informações Pessoais</h2>
+            <p><strong>Nome:</strong> SEU_NOME</p>
+            <p><strong>Email:</strong> SEU_EMAIL</p>
+            <p><strong>Usuário:</strong> SEU_USUARIO</p>
+        </section>
+
+        <section class="change-info-section">
+            <h2>Trocar Dados</h2>
+            <form action="#" method="post">
+                <label for="newName">Novo Nome:</label>
+                <input type="text" id="newName" name="newName" placeholder="Novo Nome" required>
+
+                <label for="newEmail">Novo Email:</label>
+                <input type="email" id="newEmail" name="newEmail" placeholder="Novo Email" required>
+
+                <label for="newUsername">Novo Usuário:</label>
+                <input type="text" id="newUsername" name="newUsername" placeholder="Novo Usuário" required>
+
+                <label for="newPassword">Nova Senha:</label>
+                <input type="password" id="newPassword" name="newPassword" placeholder="Nova Senha" required>
+
+                <button type="submit">Salvar Alterações</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

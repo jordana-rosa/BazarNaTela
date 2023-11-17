@@ -1,49 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Bazar na Tela</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style-login.css" />
-    <script src="https://kit.fontawesome.com/ae74dd936f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style-login.css">
+    <link rel="stylesheet" type="text/css" href="css/style-custom.css">
 </head>
 <body>
 
+<div class="forms-container">
+    <!-- Formulário de Login -->
+    <div class="form-container">
+        <div class="form-title">
+            <h2>Acesse sua conta</h2>
+        </div>
+        <form class="login-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-<div class="form-title">
-  <h2>Acesse sua conta</h2>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <div id="botoes-form">
+                <input type="submit" name="bnt-enviar" value="Entrar" />
+            </div>
+        </form>
+    </div>
+
+    <!-- Formulário de Cadastro -->
+    <div class="form-container">
+        <div class="form-title">
+            <h2>Cadastre-se</h2>
+        </div>
+        <form onsubmit="return validateForm()">
+            <label for="email-cadastro">Email:</label>
+            <input type="email" id="email-cadastro" name="email" required>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" required>
+
+            <label for="senha-cadastro">Senha:</label>
+            <input type="password" id="senha-cadastro" name="senha" required>
+
+            <label for="confirm-senha">Confirmar senha:</label>
+            <input type="password" id="confirm-senha" name="confirm-senha" required>
+
+            <fieldset>
+                <legend>Tenho interesse em peças:</legend>
+                <input id="fem" type="checkbox" name="atencao" value="fem"><label>Femininas</label><br/>
+                <input id="masc" type="checkbox" name="atencao" value="masc"><label>Masculinas</label><br/>
+                <input id="criancas" type="checkbox" name="atencao" value="criancas"><label>Crianças</label><br/>
+            </fieldset>
+
+            <div id="botoes-form">
+                <input type="submit" name="bnt-enviar" value="Cadastrar" />
+            </div>
+        </form>
+    </div>
 </div>
 
-<form>
-
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
-
-  
-  <label for="senha">Senha:</label>
-  <input type="password" id="senha" name="senha" required>
-
-
-
-  <div id="botoes-form">
-    <input type="submit" name="bnt-enviar" value="Cadastrar" />
-    
-  </div>
-  
-</form>
-
-
-
 <footer>
-  <img src="images/logo.png" alt="Logo" />
-  <p>Projeto Integrador &copy; 2023 Bazar na Tela  </p>
+    <p>Projeto Integrador &copy; 2023 Bazar na Tela</p>
 </footer>
 
+<script>
+    function validateForm() {
+        var checkboxes = document.querySelectorAll('input[name="atencao"]:checked');
+        
+        if (checkboxes.length === 0) {
+            alert('Selecione pelo menos uma opção de interesse em peças.');
+            return false;
+        }
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+        return true;
+    }
+</script>
+
 </body>
 </html>
