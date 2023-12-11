@@ -37,7 +37,7 @@ const renderList = (listaP) => {
               <p class="card-text">${item.descricao}</p>
               <p class="card-price">${item.preco}</p>
               <a href="#" class="favorite">
-                   <i class="far fa-heart"></i> Favoritar
+                   <i class="far fa-heart"></i> Reservar
               </a>
           </div>
         </div>

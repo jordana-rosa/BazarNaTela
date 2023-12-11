@@ -145,8 +145,7 @@ video {
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
-  /* padding: 1rem 0; */
+  
   margin: 0 auto;
   z-index: 999;
   border: none;
@@ -775,6 +774,13 @@ video {
   transition: transform 0.2s; /* Adiciona uma transição suave  */
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Ocupa a altura total do card-body */
+}
+
 
 .card:hover {
   transform: scale(1.03);
@@ -803,10 +809,10 @@ video {
 }
 
 .favorite {
-  display: inline-block;
+  align-self: flex-end; /* Alinha o botão "Reservar" ao final do card-body */
   text-decoration: none;
   color: #f00;
-  margin-top: 10px;
+  margin-top: auto; /* Mantém o botão ancorado na parte inferior do card-body */
   transition: color 0.2s;
 }
 
