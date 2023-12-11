@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerenciamento de Produtos</title>
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Roboto&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="gerenciamento-container">
+    <h2>Poste as novidades ou retire itens </h2>
+      <form id="formProduto">
+
+        <label for="imagemProduto">Poste o produto:</label>
+        <input type="file" id="imagemProduto" name="imagemProduto" accept="image/*" required>
+
+        <label for="nomeProduto">Nome do Produto:</label>
+        <input type="text" id="nomeProduto" name="nomeProduto" required>
+        
+        <label for="descricaoProduto">Descrição:</label>
+        <textarea id="descricaoProduto" name="descricaoProduto" required></textarea>
+        
+             
+        <label for="tipoProduto">Tipo de Produto:</label>
+        <select id="tipoProduto" name="tipoProduto" required>
+          <option value="lenço">Lenço</option>
+          <option value="sapato">Sapato</option>
+          <option value="roupa">Roupa</option>
+          <option value="blusa">Blusa</option>
+          <option value="camisa">Camisa</option>
+          <optgroup label="Masculino">
+            <option value="calça">Calça</option>
+            <option value="camiseta">Camiseta</option>
+            <option value="ternos">Ternos</option>
+          </optgroup>
+          <optgroup label="Infantil">
+            <option value="vestido">Vestido</option>
+            <option value="shorts">Shorts</option>
+            <option value="macacão">Macacão</option>
+            <option value="pijama">Pijama</option>
+          </optgroup>
+        </select>
+
+        <label for="precoProduto">Preço:</label>
+        <input type="number" id="precoProduto" name="precoProduto" required>
+        
+        <label for="condicaoProduto">Condição do Produto:</label>
+        <select id="condicaoProduto" name="condicaoProduto" required>
+          <option value="usado">Usado</option>
+          <option value="semi-novo">Semi Novo</option>
+          <option value="novo">Novo</option>
+        </select>
+      
+        <label for="categoriaProduto">Categoria:</label>
+        <select id="categoriaProduto" name="categoriaProduto" required>
+          <option value="feminino">Feminino</option>
+          <option value="masculino">Masculino</option>
+          <option value="criancas">Crianças</option>
+        </select>
+
+        <button type="submit">Adicionar Produto</button>
+      </form>
+    
+        <div id="listaProdutos">
+          
+          <div class="produto-item">
+            <h3>Título do Produto</h3>
+            <p>Descrição do Produto</p>
+            <img src="caminho-da-imagem.jpg" alt="Imagem do Produto">
+            <button class="btn-excluir">Excluir</button>
+          </div>
+          <!-- Outros itens da lista -->
+        </div>
+
+      
+    
+    <div id="listaProdutos"></div>
+  </div>
+
+  <script src="adm.js"></script>
+</body>
+</html>
