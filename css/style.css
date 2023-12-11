@@ -684,7 +684,7 @@ video {
 
 #carouselExampleAutoplaying {
   width: 100%;
-  max-width: none; /* Remova a largura máxima para que o carrossel ocupe a largura total da página */
+  max-width: none; /* Remove a largura máxima para que o carrossel ocupe a largura total da página */
   margin-top: 20px; /* Adicione espaço entre o menu de navegação e o carrossel */
 }
 
@@ -704,9 +704,9 @@ video {
 }
 
 /* Estilo para o elemento com a classe carousel */
-/* Estilo para o elemento com a classe carousel */
+
 .carousel {
-  width: 100%; /* A largura padrão é 100%, você pode aumentá-la como desejado */
+  width: 100%;
   overflow: hidden;
 }
 
@@ -772,7 +772,7 @@ video {
   border: 1px solid #ccc; 
   border-radius: 5px; 
   box-shadow: 0 2px 4px rgba(44, 39, 39, 0.1); /* Adiciona uma sombra suave */
-  transition: transform 0.2s; /* Adiciona uma transição suave ao aplicar a transformação */
+  transition: transform 0.2s; /* Adiciona uma transição suave  */
 }
 
 

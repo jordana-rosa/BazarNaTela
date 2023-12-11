@@ -58,7 +58,7 @@ button {
 }
 
 .contact-button {
-    background-color: #4a90e2; /* Cor azul para o botão de contato */
+    background-color: #95b963;
 }
 
 button:hover {
@@ -67,7 +67,7 @@ button:hover {
 
 
 .back-button {
-    background-color: #007bff;
+    background-color: #95b963;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -76,6 +76,6 @@ button:hover {
 }
 
 .back-button:hover {
-    background-color: #0056b3;
+    background-color: #95b963;
 }
 

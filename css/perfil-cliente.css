@@ -20,7 +20,7 @@ header {
 }
 
 h1 {
-    color: #bf6b63;
+    color: #C47147;
 }
 
 .profile-section,
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-    color: #bf6b63;
+    color: #C47147;
 }
 
 label {
@@ -48,7 +48,7 @@ input {
 }
 
 button {
-    background-color: #bf6b63;
+    background-color: #C47147;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -57,5 +57,5 @@ button {
 }
 
 button:hover {
-    background-color: #a4524a;
+    background-color: #C47147;
 }
